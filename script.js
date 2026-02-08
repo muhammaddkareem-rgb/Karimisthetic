@@ -91,6 +91,14 @@ const renderCollection = (collection) => {
     const name = document.createElement("h3");
     name.textContent = product.name;
 
+    if (product.rating) {
+      const rating = document.createElement("span");
+      rating.className = "rating-badge";
+      rating.textContent = `Rating ${product.rating}`;
+      name.appendChild(document.createElement("br"));
+      name.appendChild(rating);
+    }
+
     const desc = document.createElement("p");
     desc.className = "muted";
     desc.textContent = product.description;

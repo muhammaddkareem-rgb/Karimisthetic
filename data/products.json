@@ -30,6 +30,22 @@
       ]
     },
     {
+      "slug": "furniture",
+      "title": "Furniture Focus",
+      "subtitle": "Statement desks and storage that keep the setup clean.",
+      "heroImage": "/Pictures/Ltable.jpeg",
+      "products": [
+        {
+          "name": "TIQLAB L-Desk Power Hub (40\")",
+          "description": "Sleek corner L-desk with built-in power, clean lines, and storage shelves to keep your setup crisp and photo-ready.",
+          "price": "See price",
+          "rating": "4.6/5",
+          "link": "https://amzn.to/4bIkKrG",
+          "image": "/Pictures/Ltable.jpeg"
+        }
+      ]
+    },
+    {
       "slug": "boho-living",
       "title": "Soft Boho Living",
       "subtitle": "Warm woods, layered textiles, sculptural lighting.",

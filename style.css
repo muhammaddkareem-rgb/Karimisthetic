@@ -261,6 +261,10 @@ a {
   background-image: url("https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80");
 }
 
+.card-image--furniture {
+  background-image: url("/Pictures/Ltable.jpeg");
+}
+
 .card-image--kitchen {
   background-image: url("https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80");
 }
@@ -360,6 +364,18 @@ a {
 .product-body h3 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 1.2rem;
+}
+
+.rating-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .product-meta {
